@@ -1,0 +1,19 @@
+{
+  "name": "clishare",
+  "version": "1.0.0",
+  "description": "It is used to mail anyone without login in",
+  "main": "index.js",
+  "bin" : {
+    "clishare" : "app.js"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rejin Lama",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "nodemailer": "^6.9.10"
+  }
+}
