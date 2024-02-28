@@ -4,12 +4,12 @@ const sendEmail = async (data)=>{
    const transporter =  nodemailer.createTransport({
         service : 'gmail',
         auth : {
-            user : 'dptest1230@gmail.com',
-            pass : 'bdratcozuytvjwws'
+            user : 'rejinlimbu24@gmail.com',
+            pass : 'ehxpjahcepakrhih'
         }
     })
     const mailOptions = {
-        from : "CliShare<dptest1230@gmail.com>",
+        from : "EMAILSENDER<rejinlimbu24@gmail.com>",
         to : data.gmail,
         subject : data.subject,
         text : data.message,

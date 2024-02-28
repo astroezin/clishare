@@ -1,10 +1,10 @@
 {
-  "name": "clishare",
-  "version": "1.0.0",
+  "name": "mailsendercmd",
+  "version": "1.0.2",
   "description": "It is used to mail anyone without login in",
   "main": "index.js",
   "bin" : {
-    "clishare" : "app.js"
+    "mailsendercmd" : "app.js"
   },
 
   "scripts": {
